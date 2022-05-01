@@ -1,21 +1,25 @@
 # Breadth First Search
 ## AIM
-
 To develop an algorithm to find the route from the source to the destination point using breadth-first search.
 
 ## THEORY
 Explain the problem statement
 
 ## DESIGN STEPS
-
 ### STEP 1:
-Identify a location in the google map:
+Identify a location on the google map.
 
 ### STEP 2:
-Select a specific number of nodes with distance
+Select a specific number of nodes(locations) with distance.
 
-### STEP -> Write your own steps:
+### STEP 3:
+Import required packages.
 
+### STEP 4:
+Include each node and its distance separately in the dictionary data structure.
+
+### STEP 5:
+End of program.
 
 ## ROUTE MAP
 #### Include your own map
@@ -178,8 +182,10 @@ path_states(goal_state_path)
 print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ```
 ## OUTPUT:
+![image](https://user-images.githubusercontent.com/75235167/166146118-1ac528a7-4e94-46a1-b068-a15aaba75add.png)
 
 ## SOLUTION JUSTIFICATION:
+Route follow the minimum distance between locations using breadth-first search.
 
 ## RESULT:
-
+Thus the program developed for finding route with drawn map and finding its distance covered.
