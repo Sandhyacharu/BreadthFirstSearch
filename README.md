@@ -3,7 +3,7 @@
 To develop an algorithm to find the route from the source to the destination point using breadth-first search.
 
 ## THEORY
-Explain the problem statement
+Breadth-first search, also known as BFS, finds shortest paths from a given source vertex to all other vertices, in terms of the number of edges in the paths.
 
 ## DESIGN STEPS
 ### STEP 1:
